@@ -166,6 +166,7 @@ class MainBody extends React.Component {
                         );
                     })}
                 </div>
+                {this.state.dataList.length <= 0 ? <div className="loading">Loading...</div> : null}
                 {this.state.dataList.map(function(item, i) {
                     return(
                         <div className={'item-row' + (i % 2 ? ' even' : '')} key={i}>

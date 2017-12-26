@@ -1,5 +1,5 @@
 body {
-    font: 14px "Verdana", Futura, sans-serif;
+    font: 14px "Verdana", sans-serif;
     margin: 0 0 0 0;
 }
 
@@ -84,6 +84,13 @@ h1 {
 }
 .address {
     width: 30%;
+}
+.loading {
+    height:      150px;
+    line-height: 150px;
+    font-size:   30px;
+    text-align:  center;
+    width:       100%;
 }
 .item-row {
     height:      32px;
