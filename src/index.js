@@ -139,7 +139,7 @@ class MainBody extends React.Component {
                 <div className="item-options">
                     <div class="item-options-left">
                         <h1>List of Awesome</h1> | Sort by:
-                        <span class="item-sort"> {this.state.fields[this.state.currentSortField] || 'n/a'} {this.state.currentSortField ? (this.state.sortAsc ? '(asc)' : '(desc)') : null}</span>
+                        <span class="item-sort"> {this.state.fields[this.state.currentSortField] || 'n/a'}</span>
                     </div>
                     <div className="item-options-right">
                         items per page:
